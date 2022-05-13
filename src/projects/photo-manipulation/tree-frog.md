@@ -7,7 +7,7 @@ key: photoman
 thumb: ../../images/thumbs/tree-frog.jpg
 ---
 
-![Two men walking along a rocky path adjacent to a frozen over lake](../../images/photo-manipulation/tree-frog-before-after.jpg)
+![a green tree frog on the siding of a house](../../images/photo-manipulation/tree-frog-before-after.jpg)
 
 Frogs are the best. I found this one outside the house on the siding. Just chillin'. I've had a bit of an obsession with frogs since I was a kid and that hasn't gone away. Just ask my collection of frogs I keep by my plants. 
 

@@ -7,7 +7,7 @@ key: photoman
 thumb: ../../images/thumbs/calico-cat.jpg
 ---
 
-![bathroom interior](../../images/photo-manipulation/calico-cat-before-after.jpg)
+![a calioco cat looking at the camera](../../images/photo-manipulation/calico-cat-before-after.jpg)
 
 Meet Juniper. When she first showed up at our place, she was not fond of people, but loved being around her sister. After showing her that people can be friendly, she's one of the more loveable cats we've had. With this example of background removal, I went a step further and added a custom polka dot background, but this background could have really been anything.
 

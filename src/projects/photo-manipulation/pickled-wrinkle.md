@@ -7,7 +7,7 @@ key: photoman
 thumb: ../../images/thumbs/pickled-wrinkle.jpg
 ---
 
-![monarch caterpillar eating a large milkweed leaf](../../images/photo-manipulation/pickled-wrinkle-before-after.jpg)
+![a family sitting outside of a restaurant called "the pickled wrinkle"](../../images/photo-manipulation/pickled-wrinkle-before-after.jpg)
 
 If you haven't made it to Maine yet, I'd highly recommend it as a travel destination. The coastline is absolutely incredible, the food is delicious, and the people are friendly. The Pickled Wrinkle is a popular restaurant located in Birch Harbor, as the sign says. If you go, you've obviously got to try the pickled wrinkles, but don't forget to branch out to the rest of their nummy menu. 
 

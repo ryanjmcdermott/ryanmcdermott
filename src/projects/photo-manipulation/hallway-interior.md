@@ -7,7 +7,7 @@ key: photoman
 thumb: ../../images/thumbs/hallway-interior.jpg
 ---
 
-![bathroom interior](../../images/photo-manipulation/hallway-interior-before-after.jpg)
+![hallway interior](../../images/photo-manipulation/hallway-interior-before-after.jpg)
 
 I used this image, because it was so ridiculously hopeless to begin with. I wanted to show that large changes can be made in situations like these. 
 
