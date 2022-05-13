@@ -1,7 +1,3 @@
-h2 {
-    padding-bottom: 2.5rem;
-}
-
 .projects {
     display: grid;
     grid-gap: 2rem;
@@ -11,25 +7,57 @@ h2 {
         grid-template-columns: 1fr 1fr;
     }
 
-    .css-1m9k2oe-ProjectCard {
+    .projectcard {
 
-        h3.css-1111nbk-ProjectCard {
-            margin: 0;
-            font-size: 2.2rem;
-            padding: 0;
+        .gatsby-image-wrapper {
+            margin-bottom: 1rem;
         }
 
         p {
+            margin-top: 0;
             text-transform: lowercase;
+            font-size: 1.2rem;
+            margin: 0;
         }
 
-        &:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+        h3 {
+            margin: 0;
+            font-size: 1.6rem;
+            padding: 0;
+
+            @media (min-width: 36em) {
+                font-size: 2rem;
+            }
         }
     }
 }
 
-.css-wt2623-Inner {
+.inner {
     z-index: 50;
+
+    h1 {
+        font-size: 2rem;
+    
+        @media (min-width: 36em) {
+            font-size: 2.8rem;
+        }
+    
+        @media (min-width: 54em) {
+            font-size: 3.6rem;
+        }
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+        text-transform: lowercase;
+        padding-bottom: 2rem;
+    
+        @media (min-width: 36em) {
+            font-size: 2rem;
+        }
+    
+        @media (min-width: 54em) {
+            font-size: 2.4rem;
+        }
+    }
 }

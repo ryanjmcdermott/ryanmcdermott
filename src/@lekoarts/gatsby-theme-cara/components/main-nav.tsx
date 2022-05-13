@@ -17,18 +17,20 @@ const Menu = styled.ul`
 `
 
 const Item = styled.li`
+    font-weight: bold;
     list-style: none;
     transition: all 0.1s ease-in-out;
 
     &:hover {
-        padding-right: -0.5rem;
-
         span {
-            padding-right: 0.5rem;
+            padding-right: 0.25rem;
+            padding-left: 0rem;
         }
     }
 
     span {
+        padding-right: 0rem;
+        padding-left: 0.25rem;
         transition: all 0.1s ease-in-out;
     }
     

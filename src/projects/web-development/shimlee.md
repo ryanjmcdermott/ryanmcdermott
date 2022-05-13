@@ -2,7 +2,7 @@
 title: Shimlee
 slug: shimlee
 description: custom wordpress updates
-date: 2022-02-01T00:00:00+00:00
+date: 2022-01-01T00:00:00+00:00
 key: webdev
 thumb: ../../images/thumbs/shimlee.jpg
 ---

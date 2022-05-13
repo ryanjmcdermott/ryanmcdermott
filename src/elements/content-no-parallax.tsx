@@ -10,7 +10,7 @@ const ContentNoParallax = ({ children, className = `` }: ContentProps) => (
       flexDirection: `column`,
       alignItems: `center`,
       justifyContent: `center`,
-      zIndex: 50,
+      zIndex: 999,
     }}
   >
     {children}
