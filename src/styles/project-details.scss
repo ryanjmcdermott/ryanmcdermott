@@ -1,0 +1,34 @@
+.project_details {
+    h1 {
+        font-size: 2rem;
+
+        @media (min-width: 54em) {
+            font-size: 3.6rem;
+        }
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        text-transform: lowercase;
+
+        @media (min-width: 54em) {
+            font-size: 2.4rem;
+        }
+    }
+    
+    .embedVideo-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+        margin-bottom: 2rem;
+
+        .embedVideo-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
