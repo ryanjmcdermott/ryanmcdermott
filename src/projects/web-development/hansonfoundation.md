@@ -1,7 +1,7 @@
 ---
 title: Hanson Family Foundation
 slug: hanson-family-foundation
-description: developer
+description: developer / wordpress
 date: 2022-03-01T00:00:00+00:00
 key: webdev
 thumb: ../../images/thumbs/hanson.jpg

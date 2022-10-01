@@ -1,7 +1,7 @@
 ---
 title: Floyd County Medical Center
 slug: fcmc
-description: development lead
+description: lead developer / wordpress
 date: 2022-02-01T00:00:00+00:00
 key: webdev
 thumb: ../../images/thumbs/fcmc.jpg

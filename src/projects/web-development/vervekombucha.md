@@ -1,7 +1,7 @@
 ---
 title: Verve Kombucha
 slug: verve-kombucha
-description: Site Management
+description: Site Management / wordpress
 date: 2022-04-01T00:00:00+00:00
 key: webdev
 thumb: ../../images/thumbs/verve-kombucha.jpg
