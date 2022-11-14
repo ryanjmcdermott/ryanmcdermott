@@ -1,5 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from "@mdx-js/react"
 import { Themed } from "theme-ui"
 import Layout from "@lekoarts/gatsby-theme-cara/src/components/layout"
 import ContentNoParallax from "../elements/content-no-parallax.tsx"
@@ -11,6 +13,7 @@ import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
 import "../styles/project-details.scss"
 import MainNav from "../@lekoarts/gatsby-theme-cara/components/main-nav.tsx"
 import Navbar from "../@lekoarts/gatsby-theme-cara/components/project-nav"
+import { ImgComparisonSlider } from '@img-comparison-slider/react'
 
 // import { Parallax } from "@react-spring/parallax"
 // import Divider from "@lekoarts/gatsby-theme-cara/src/elements/divider"
@@ -20,8 +23,9 @@ import Navbar from "../@lekoarts/gatsby-theme-cara/components/project-nav"
 
 const ProjectDetails = ({ data }) => {
   
-  const { html } = data.details
+  const { body } = data.details
   const { title, description } = data.details.frontmatter
+  const shortcodes = { ImgComparisonSlider }
 
   return (
     <Layout>
@@ -59,7 +63,11 @@ const ProjectDetails = ({ data }) => {
             <Navbar></Navbar>
             <Themed.h1 className="project_title">{ title }</Themed.h1>
             <Themed.h2>{ description }</Themed.h2>
-            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <div>
+              <MDXProvider components={ shortcodes }>
+                <MDXRenderer>{ body }</MDXRenderer>
+              </MDXProvider>
+            </div>
           </div>
         </Inner>
       </ContentNoParallax>
@@ -69,11 +77,11 @@ const ProjectDetails = ({ data }) => {
 
 export const query = graphql`
   query ProjectDetails($slug: String) {
-    details: markdownRemark(frontmatter: {slug: {eq: $slug}}) {
-      html
+    details: mdx(frontmatter: {slug: {eq: $slug}}) {
+      body
       frontmatter {
-        description
         title
+        description
       }
     }
   }

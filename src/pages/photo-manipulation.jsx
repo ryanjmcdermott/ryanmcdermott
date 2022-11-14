@@ -64,7 +64,7 @@ const PhotoMan = ({ data }) => {
 
 export const query = graphql`
 query PhotoManData {
-  projects: allMarkdownRemark(
+  projects: allMdx(
     sort: {fields: frontmatter___date, order: DESC}
     filter: {frontmatter: {key: {eq: "photoman"}}}
   ) {

@@ -64,7 +64,7 @@ const PhotoEdit = ({ data }) => {
 
 export const query = graphql`
 query PhotoEditData {
-  projects: allMarkdownRemark(
+  projects: allMdx(
     sort: {fields: frontmatter___date, order: DESC}
     filter: {frontmatter: {key: {eq: "photoedit"}}}
   ) {

@@ -64,7 +64,7 @@ const WebDev = ({ data }) => {
 
 export const query = graphql`
 query WebDevData {
-  projects: allMarkdownRemark(
+  projects: allMdx(
     sort: {fields: frontmatter___date, order: DESC}
     filter: {frontmatter: {key: {eq: "webdev"}}}
   ) {

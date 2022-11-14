@@ -4,7 +4,7 @@ exports.createPages = async ({ graphql, actions }) => {
     
     const { data } = await graphql(`
         query Projects {
-            mograph: allMarkdownRemark(
+            mograph: allMdx(
                 filter: {frontmatter: {key: {eq: "mograph"}}}
             ) {
                 nodes {
@@ -13,7 +13,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
-            photoedit: allMarkdownRemark(
+            photoedit: allMdx(
                 filter: {frontmatter: {key: {eq: "photoedit"}}}
             ) {
                 nodes {
@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
-            photoman: allMarkdownRemark(
+            photoman: allMdx(
                 filter: {frontmatter: {key: {eq: "photoman"}}}
             ) {
                 nodes {
@@ -31,7 +31,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
-            webdev: allMarkdownRemark(
+            webdev: allMdx(
                 filter: {frontmatter: {key: {eq: "webdev"}}}
             ) {
                 nodes {
